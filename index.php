@@ -6,26 +6,27 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
         <link rel="stylesheet" href="meuestilo.css">        
-        <title>Página inicial</title>
-    </head>
+        <title>Lolita Boutique - Página inicial</title>
+    </head>        
+    <body>
         <header>
             <div class="navegar">
-            <h1><img src="logo/lolita.png" alt=""></h1>
-                    <nav>
-                        <ul>
-                        <li><button type="submit" class="btn btn-outline-primary"><a href="index.php">Início</li></a></button>
-                        <li><button type="submit" class="btn btn-outline-primary"><a href="sobre.php">Sobre</li></a></button>
-                        <li><button type="submit" class="btn btn-outline-primary"><a href="Contato.php">Contato</li></a></button>
-                        </ul>
-                    </nav>
+                <h1>
+                    <img src="logo/lolita.png" alt="">
+                </h1>
+                <nav>
+                    <ul>
+                    <li><button type="submit" class="btn btn-outline-primary"><a href="index.php">Início</li></a></button>
+                    <li><button type="submit" class="btn btn-outline-primary"><a href="sobre.php">Sobre</li></a></button>
+                    <li><button type="submit" class="btn btn-outline-primary"><a href="Contato.php">Contato</li></a></button>
+                    </ul>
+                </nav>
             </div>    
         </header>
-    <body>
-        <div class= "container">
-            <center><h1>Lolita Boutique</h1></center>
-            <center><p>Loulita Boutique é uma loja voltada para vender artesanatos do 2º série do ensimo médio</p></center>
+        <div class="container">
+            <h1 class="centralizar">Lolita Boutique</h1>
+            <p class="centralizar">Loulita Boutique é uma loja voltada para vender artesanatos do 2º série do ensimo médio</p></center>
         </div>
-
         <div class= "container">
             <div class="row">
                 <div class="col">
