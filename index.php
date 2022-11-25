@@ -19,6 +19,8 @@
                     <li><button type="submit" class="btn btn-outline-primary"><a href="index.php">Início</li></a></button>
                     <li><button type="submit" class="btn btn-outline-primary"><a href="sobre.php">Sobre</li></a></button>
                     <li><button type="submit" class="btn btn-outline-primary"><a href="Contato.php">Contato</li></a></button>
+                    <button type="submit" class="btn btn-outline-primary"><a href="cadastrar.php" class="link">Cadastrar Produtos</a></button>
+                    <button type="submit" class="btn btn-outline-primary"><a href="deletar_produto.php" class="link">Deletar produtos</a></button>
                     </ul>
                 </nav>
             </div>    
@@ -117,9 +119,5 @@
             </div>
         </div>        
         <br>
-        <br>
-            <div class= "container">
-                <button type="submit" class="btn btn-outline-primary"><a href="cadastrar.php" class="link">CLIQUE PARA CADASTRAR PRODUTO</a></button>
-            </div>
     </body>
 </html>

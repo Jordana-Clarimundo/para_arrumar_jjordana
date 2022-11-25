@@ -1,3 +1,14 @@
+
+
+
+
+
+
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
@@ -11,6 +22,12 @@
     <body>
         <div class="container">
             <h1>Coah Jordana - Desenvolver a funcionalidade deletar.</h1>
-        </div>        
+        </div>
     </body>
+
+    <div class= "container">
+            <button type="submit" class="btn btn-outline-primary"><a href="index.php" class="link">Início</a></button>
+        </div>
+
+
 </html>

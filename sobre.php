@@ -23,106 +23,137 @@
     <body>
         <div class= "container">
             <h1>Sobre Lolita Boutique</h1>
-            <p><h4>Loulita Boutique é um sistema web para que os alunos da 2º série anunciem coisas que queiram vender, tormando mais pratico de postar desapegos ou artesanatos.</h4></p>
+            <p><h4>Loulita Boutique é um sistema web para que os alunos da 2º série anunciem coisas que queiram vender, tormando mais prático de postar desapegos ou artesanatos.</h4></p>
+            <br>
+            <br>
             <p><h4>Aqui apresentaremos cada um dos alunos da 2º série</h4></p> 
         </div>
 
         <div class= "container">
-            <div class="row">
+            <div class="row"> <!-- Linha de 3 fotos -->
                 <div class="col">
-                       <p>Alexia Lam</p>
-                       <img src="alunos/alexia.png" alt="">
-                    </div>  
-                </div>
+                    <p>Alexia Lam</p>
+                    <img class="img-fluid" src="alunos/alexia.png" alt="">
+                </div>  
+                
             
                 <div class="col">
-                       <p>Alvaro Venciguerra</p>
-                       <img src="alunos/alvaro.png" alt="">
-                    </div>  
-                </div>
+                    <p>Alvaro Venciguerra</p>
+                    <img class="img-fluid" src="alunos/alvaro.png" alt="">
+                </div>  
+                
                 
                 <div class="col">
-                       <p>Ana Maria</p>
-                       <img src="alunos/ana maria.png" alt="">
-                    </div>  
+                    <p>Ana Maria</p>
+                    <img class="img-fluid" src="alunos/ana maria.png" alt="">
+                </div> 
+            </div>
+
+            <!-- Linha de 3 fotos -->
+
+            <div class="row">
+
+                <div class="col">
+                    <p>Eduarda Cândido</p>
+                    <img class="img-fluid" src="alunos/duda.png" alt="">
+                </div>  
+                
+
+                <div class="col">
+                    <p>Fernanda Miranda</p>
+                    <img class="img-fluid" src="alunos/fernanda.png" alt="">
                 </div>
 
                 <div class="col">
-                       <p>Eduarda Cândido</p>
-                       <img src="alunos/duda.png" alt="">
-                    </div>  
-                </div>
+                    <p>João Gabriel</p>
+                    <img class="img-fluid" src="alunos/joao gabriel.png" alt="">
+                </div>  
+            </div>
 
-                <div class="col">
-                       <p>Fernanda Miranda</p>
-                       <img src="alunos/fernanda.png" alt="">
-                    </div>  
-                </div>
-
-                <div class="col">
-                       <p>João Gabriel</p>
-                       <img src="alunos/joao gabriel.png" alt="">
-                    </div>  
-                </div>
-
+            <!-- Linha de 3 fotos -->
+            <div class="row">
                 <div class="col">
                        <p>Jordana Clarimundo</p>
-                       <img src="imagens/jor.png" alt="">
-                    </div>  
-                </div>
+                       <img class="img-fluid" src="imagens/jor.png" alt="">
+                </div>  
+                
 
                 <div class="col">
                        <p>Julia Taboni</p>
-                       <img src="imagens/ju.png" alt="">
-                    </div>  
-                </div>
+                       <img class="img-fluid" src="imagens/ju.png" alt="">
+                </div>  
+                
 
                 <div class="col">
-                       <p>Kawany Marins</p>
-                       <img src="alunos/kawany.png" alt="">
-                    </div>  
-                </div>
+                    <p>Kawany Marins</p>
+                    <img class="img-fluid" src="alunos/kawany.png" alt="">
+                </div>  
+            </div> 
+            
+             <!-- Linha de 3 fotos -->
 
+            <div class="row">
                 <div class="col">
-                       <p>Maria Eduarda</p>
-                       <img src="alunos/madu.png" alt="">
-                    </div>  
+                    <p>Maria Eduarda</p>
+                    <img class="img-fluid" src="alunos/madu.png" alt=""> 
                 </div>     
                 
                 <div class="col">
-                       <p>Maria Eduarda</p>
-                       <img src="alunos/madu.png" alt="">
-                    </div>  
+                    <p>Marcelo</p>
+                    <img class="img-fluid" src="alunos/marcelo.png" alt="">  
                 </div>     
 
                 <div class="col">
-                       <p>Maria Eduarda</p>
-                       <img src="alunos/madu.png" alt="">
-                    </div>  
-                </div>     
+                    <p>Paula Bovo</p>
+                    <img class="img-fluid" src="alunos/paula.png" alt=""> 
+                </div>  
+            </div> 
+
+             <!-- Linha de 3 fotos -->
+            
+            <div class="row">
 
                 <div class="col">
-                       <p>Maria Eduarda</p>
-                       <img src="alunos/madu.png" alt="">
-                    </div>  
-                </div>     
+                    <p>Victória Bovo</p>
+                    <img class="img-fluid" src="alunos/vic.png" alt="">
+                </div>  
+                    
 
                 <div class="col">
-                       <p>Maria Eduarda</p>
-                       <img src="alunos/madu.png" alt="">
-                    </div>  
-                </div>     
+                    <p>Vitória</p>
+                    <img class="img-fluid" src="alunos/vitoria.png" alt="">
+                </div>  
+                    
 
                 <div class="col">
-                       <p>Maria Eduarda</p>
-                       <img src="alunos/madu.png" alt="">
+                    <p>Yasmin Papin</p>
+                    <img class="img-fluid" src="alunos/yasmin.png" alt="">
+                </div> 
+                
+                 <!-- Linha de 3 fotos -->
+
+                 <div class="row">
+
+                    <div class="col">
+                        <p>Thauane</p>
+                        <img class="img-fluid" src="alunos/thauane.png" alt="">
                     </div>  
-                </div>     
+                        
+
+                    <div class="col">
+                        <p>Igor</p>
+                        <img class="img-fluid" src="alunos/igor.png" alt="">
+                    </div>  
+                        
+
+                    <div class="col">
+                        <p>GUstavo</p>
+                        <img class="img-fluid" src="alunos/gustavo.png" alt="">
+                    </div> 
+                </div>
+            </div>
+            
         </div>
-
-
-
-
 
 
         <div class= "container">
