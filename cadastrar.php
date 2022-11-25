@@ -7,14 +7,32 @@
     
     if(isset($_POST['nome'])){
         $nome = $_POST['nome'];
-        $foto = $_POST['foto'];
         $descricao = $_POST['descricao'];
         $valor = $_POST['valor'];
-        
+        $foto = $_FILES['foto'];
+        $nome_da_foto = $foto['name'];
+        $extensao_da_foto = strtolower(pathinfo($nome_da_foto, PATHINFO_EXTENSION));
+        $pasta_das_fotos = "fotos/";
 
-        $mysqli->query("INSERT INTO produto (nome, foto, descricao, valor) VALUES ('$nome', '$foto', '$descricao', '$valor')") or die ($mysqli->error);
+        # -----------------------------------------Para coach Jordana :) --------------------------------------------------------------------- #
+        if($extensao_da_foto != "jpg"){
+            if(!isset($_SESSION['msg'])){
+                $_SESSION['msg'] = "<div class='alert alert-danger'>Recebemos apenas arquivos .JPG </div>";
+            }    
+        }else{
+            
+            $nome_estranho = uniqid();
 
-        $_SESSION['msg'] = "<div class='alert alert-success'> Produto cadastrado com sucesso. </div>";
+            $foto_novo_nome = $pasta_das_fotos . $nome_estranho . "." . $extensao_da_foto;
+
+            move_uploaded_file($foto["tmp_name"], $foto_novo_nome);
+
+            $mysqli->query("INSERT INTO produto (nome, foto, descricao, valor) VALUES ('$nome', '$foto_novo_nome', '$descricao', '$valor')") or die ($mysqli->error);
+
+            $_SESSION['msg'] = "<div class='alert alert-success'> Produto cadastrado com sucesso. </div>";
+
+        }
+        # ------------------------------------------------------------------------------------------------------------------------------------ #
     }
 
 ?>
@@ -40,7 +58,7 @@
                 </div>
                 <div class="mb-3">
                     <label for="bt_nome" class="form-label">Foto do produto:</label>
-                    <input class="form-control" type="text" name="foto" required>
+                    <input class="form-control" type="file" name="foto" required>
                     <div class="form-text">*inserir imagem .jpg</div>
                     <br>
                 </div>
